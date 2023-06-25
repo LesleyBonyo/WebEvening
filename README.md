@@ -10,4 +10,5 @@ CSS: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/03-06-2023-c
 Login page and Navigation bar: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/10-06-2023">Nav bar and Login</a><br>
 ## JavaScript Classes
 Add interactivity to your page using JavaScript. <br><br>
-JS syntax: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/17-06-2023">JavaScript</a>
+JS syntax: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/17-06-2023">JavaScript</a> <br>
+JavaScript HTML DOM: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/24-06-2023">JavaScript</a> <br>
