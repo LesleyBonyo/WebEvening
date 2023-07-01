@@ -21,11 +21,13 @@
 	<h1>Login</h1>
 
 	<div class="login">
-		<form>
+		<form onsubmit="return validateForm()">
 			<label>Username</label>
-			<input type="text" name="username" placeholder="Enter username">
+			<input type="text" name="username" id="username" placeholder="Enter username">
+			<div id="result1" style="color:red; text-align: center;"></div>
 			<label>Password</label>
-			<input type="password" name="userpassword" placeholder="Enter password">
+			<input type="password" name="userpassword" id="password" placeholder="Enter password">
+			<div id="result2" style="color:red; text-align:center;"></div>
 			<label>Account Type</label>
 			<select name="account">
 				<option>Buyer</option>
@@ -34,6 +36,6 @@
 			<input type="submit" name="login" value="Login">
 		</form>
 	</div>
-
+<script src="script.js"></script>
 </body>
 </html>
