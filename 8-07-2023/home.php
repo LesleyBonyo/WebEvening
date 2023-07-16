@@ -37,9 +37,28 @@ if ($age == 18){
 } else {
 	echo "Too young";
 }
+// for loop
+for ($i=1; $i<7; $i++){
+	echo "This is round ".$i."<br>";
+}
+// arrays - Indexed array
+$firstArray = array("John","Jane","Janet");
+echo "<br>My name is ".$firstArray[1];
 
-
-
+//associative array
+$secondArray = array(
+	'John'=> 14,
+	'Jane'=> 15, 
+	'Janet'=> 16
+	);
+echo "<br>She is ".$secondArray['Janet'];
+//loop through array
+foreach ($firstArray as $studentName){
+	echo "<br>Your name is $studentName";
+}
+foreach ($secondArray as $name => $age){
+	echo "<br>$name is $age years old";
+}
 
 
 
