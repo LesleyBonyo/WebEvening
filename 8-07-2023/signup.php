@@ -7,7 +7,8 @@
 $sql = "INSERT INTO registration(username,regMonth) VALUES('$username','$month') ";
 	$result = mysqli_query($connect, $sql);
 	if ($result){
-		echo "Registered successfully";
+		//echo "Registered successfully";
+		header("location:display.php");
 	} else {
 		echo "Not registered";
 	}
