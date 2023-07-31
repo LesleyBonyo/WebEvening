@@ -1,9 +1,15 @@
 <?php 
-	include "connect.php";
+
+	include 'connect.php';
 	if (isset($_GET['updateid'])) {
-		// code...
-	
 	$id = $_GET['updateid'];
+	$mysql = "SELECT * FROM registration WHERE userid=$id";
+	$result = mysqli_query($connect,$mysql);
+	if ($result) {
+		$row = mysqli_fetch_assoc($result);
+		$name = $row['username'];
+		$regmonth = $row['regMonth'];
+	}
 		// $_SERVER
 	if ($_SERVER['REQUEST_METHOD']=='POST'){
 		// $id = $_GET['updateid'];
@@ -12,10 +18,10 @@
 $sql = "UPDATE registration SET username='$username', regMonth='$ourmonth' WHERE userid=$id";
 	$result = mysqli_query($connect, $sql);
 	if ($result){
-		echo "Updated successfully";
-		//header("location:display.php");
+		//echo "Updated successfully";
+		header("location:display.php");
 	} else {
-		echo "Not registered";
+		echo "Update failed: ".mysqli_error($connect);
 	}
 	}
 	}
@@ -34,13 +40,13 @@ $sql = "UPDATE registration SET username='$username', regMonth='$ourmonth' WHERE
 			$months = array("January","February","March", "April");
 		?>
 	<h1>Update User Details</h1>
-	<form action="update.php" method="post">
+	<form method="post">
 		<label>Username</label>
-		<input type="text" name="username" placeholder="Enter Username">
+		<input type="text" name="username" placeholder="Enter Username" value="<?php echo $name;?>">
 
 		<label>Registration Month</label>
 		<select name="regMonth">
-			<option>--Select Month--</option>
+			<option><?php echo $regmonth;?></option>
 			<?php 
 	foreach ($months as $month){
 		echo "<option value=$month>$month</option>";
