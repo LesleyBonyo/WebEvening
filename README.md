@@ -12,3 +12,5 @@ Login page and Navigation bar: <a href = "https://github.com/LesleyBonyo/WebEven
 Add interactivity to your page using JavaScript. <br><br>
 JS syntax: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/17-06-2023">JavaScript</a> <br>
 JavaScript HTML DOM: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/24-06-2023">JavaScript</a> <br>
+
+## PHP Classes
