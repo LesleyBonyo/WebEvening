@@ -14,3 +14,5 @@ JS syntax: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/17-06-
 JavaScript HTML DOM: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/24-06-2023">JavaScript</a> <br>
 
 ## PHP Classes
+Connect to and manipulate databases using PHP. <br>
+PHP syntax: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/8-07-2023">PHP</a> <br>
