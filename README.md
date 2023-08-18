@@ -16,3 +16,4 @@ JavaScript HTML DOM: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/m
 ## PHP Classes
 Connect to and manipulate databases using PHP. <br>
 PHP syntax: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/8-07-2023">PHP</a> <br>
+PHP and MYSQL Example: <a href = "https://github.com/LesleyBonyo/WebEvening/tree/main/29-07-2023">Sign Up and Login</a> <br>
